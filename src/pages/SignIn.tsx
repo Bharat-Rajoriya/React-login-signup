@@ -1,9 +1,11 @@
-import LoginForm from "@/components/ui/molecules/LoginFormForm"
+import LoginForm from "@/components/ui/molecules/LoginForm"
 
 
 const SignIn = () => {
   return (
-    <LoginForm></LoginForm>
+    <div className="flex h-screen justify-center items-center">
+      <LoginForm />
+    </div>
   )
 }
 
